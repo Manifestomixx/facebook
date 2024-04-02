@@ -1,0 +1,65 @@
+main{
+  background-color: #F0F2F5;
+  height: 90vh;
+}
+
+
+.photo{
+  
+  width: 500px;
+  position: relative;
+  right: 3rem;
+ 
+}
+.button1{
+  width: 100%;
+  height: 3rem;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.pass{
+  color: blue;
+  font-size: 18px;
+}
+.formside{
+  border-radius: 10px;
+  width: 27rem;
+}
+.button2{
+  background-color: #36A420;
+  width: 50%;
+  height: 60px;
+  font-size: 17px;
+  margin-left: 6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  
+
+}
+.page{
+  /* position: relative;
+  right: 2rem; */
+}
+
+.under:hover{
+  cursor: pointer;
+  
+
+}
+.font{
+  font-weight: lighter;
+  font-size: 12px;
+  text-decoration-color:rgb(138, 141, 145) ;
+}
+
+@media (max-width: 575.98px) {
+  footer{
+    display: none;
+    
+  }
+  .photo{
+    margin-left: 18px;
+    margin-top: 3rem;
+  }
+  
+}
